@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    height: 1000px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 30px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container .comparto {
+    background-color: #9999CB;
+    text-align: center ;
+    color: #fff;
+    padding: 60px;
+    margin-left: 10px;
+    font-size: 21px;
+    flex: 1;
+}
+.container .boxes {
+    background-color: #EDEEF0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex: 5;
+    margin: 0 auto;
+}
+.container ul {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 40px;
+
+    /* background-color: rgb(124, 124, 124); */
+}
+.container .number {
+    background-color: #fff;
+    margin: 0 10px;
+    padding: 20px 30px;
+}
+.container .red {
+    background-color: #CB9998;
+}
+/* Content */
+.content {
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content .img {
+    /* flex: 5; */
+    width: 60%;
+    margin: 50px 0 0 20px;
+}
+.content .text {
+    /* flex: 4; */
+    width: 40%;
+    background-color: #EDEEF0;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content .btn {
+    background-color: #CB9998;
+    padding: 7px 15px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+/* Icon */
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-right: 100px;
+    padding-right: 50px;
+    width: 100%;
+    height: 150px ;
+    background-color: #9999CB;
+}
+.icon img {
+    height: 120px;
+}
+/* Photos */
+.photos {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    
+}
+.photos img {
+    width: 200px;
+    height: 160px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+/* foot */
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+}
+.foot img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.para {
+    text-align: center;
+}
